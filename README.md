@@ -33,7 +33,7 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image = cv2.imread('Tiger.jpg')  # Replace with your image path
+image = cv2.imread('spyd.jpg')  # Replace with your image path
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Input Image')
 plt.axis('off')
